@@ -3,6 +3,7 @@ module HammerCLIForemanRhCloud
   require 'hammer_cli_foreman'
 
   require 'hammer_cli_foreman_rh_cloud/version'
+  require 'hammer_cli_foreman_rh_cloud/i18n'
   require 'hammer_cli_foreman_rh_cloud/report'
 
   HammerCLI::MainCommand.lazy_subcommand(
