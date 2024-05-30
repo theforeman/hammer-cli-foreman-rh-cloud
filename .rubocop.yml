@@ -1,0 +1,18 @@
+inherit_gem:
+  theforeman-rubocop:
+    - default.yml
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/SymbolProc:
+  Enabled: false
+
+Layout/LineLength:
+  Enabled: false
+
+Style/RedundantSelf:
+  Enabled: false
+
+Style/ExpandPathArguments:
+  Enabled: false

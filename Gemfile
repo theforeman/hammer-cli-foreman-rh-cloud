@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 gemspec
 
@@ -7,6 +7,8 @@ gem 'gettext', '>= 3.1.3', '< 4.0.0'
 group :test do
   gem 'rake'
 end
+
+gem 'theforeman-rubocop', '~> 0.1.0'
 
 # load local gemfile
 local_gemfile = File.join(File.dirname(__FILE__), 'Gemfile.local')
