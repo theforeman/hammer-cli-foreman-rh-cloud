@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'hammer_cli_foreman', '>= 3.0.0', '< 4.0.0'
 
-  s.required_ruby_version = '>= 2.7', '< 4'
+  spec.required_ruby_version = '>= 2.7', '< 4'
 end
