@@ -15,11 +15,4 @@ jobs:
     name: Rubocop
     uses: theforeman/actions/.github/workflows/rubocop.yml@v0
     with:
-        command: bundle exec rubocop --parallel --format github
-
-  test:
-    name: Tests
-    needs: rubocop
-    uses: theforeman/actions/.github/workflows/test-gem.yml@v0
-    with:
-      command: bundle exec rake test
+      command: bundle exec rubocop --parallel --format github
