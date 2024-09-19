@@ -3,19 +3,25 @@
 # This file is distributed under the same license as the hammer-cli-foreman-rh-cloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Pavel Borecki <pavel.borecki@gmail.com>, 2023
+#
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: hammer-cli-foreman-rh-cloud 1.0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 16:17+0000\n"
-"PO-Revision-Date: 2023-07-12 16:17+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-10-05 11:01+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>, 2023\n"
+"Language-Team: Czech (Czech Republic) (https://app.transifex.com/foreman/"
+"teams/114/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language: cs_CZ\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n "
+"<= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
 msgid "Cloud connector enable task started"
 msgstr ""
@@ -26,7 +32,7 @@ msgid ""
 msgstr ""
 
 msgid "Task id"
-msgstr ""
+msgstr "Identifikátor úlohy"
 
 msgid "Inventory sync task started successfully"
 msgstr ""
