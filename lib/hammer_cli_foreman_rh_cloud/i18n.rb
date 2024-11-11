@@ -12,7 +12,7 @@ module HammerCLIForemanRhCloud
       end
 
       def domain_name
-        'hammer-cli-foreman-rh-cloud'
+        'hammer_cli_foreman_rh_cloud'
       end
     end
 
