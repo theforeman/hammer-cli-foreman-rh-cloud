@@ -1,7 +1,8 @@
 module HammerCLIForemanRhCloud
   class CloudConnectorCommand < HammerCLIForeman::Command
+    desc 'Manage cloud connector setup'
     resource :inventory
-    command_name 'cloud_connector'
+    command_name 'cloud-connector'
 
     class EnableCommand < HammerCLIForeman::Command
       command_name 'enable'
