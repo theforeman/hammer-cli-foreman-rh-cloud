@@ -19,3 +19,23 @@ Style/RedundantSelf:
 
 Style/ExpandPathArguments:
   Enabled: false
+
+Style/MixinUsage:
+  Exclude:
+    - 'test/test_helper.rb'
+
+Metrics/BlockLength:
+  Max: 264
+
+Metrics/ModuleLength:
+  Max: 120
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+MethodLength:
+  Description: 'Avoid methods longer than 30 lines of code.'
+  Max: 30 # default is 10
+
+LineLength:
+  Max: 150
