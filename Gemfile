@@ -9,6 +9,7 @@ group :test do
   gem 'minitest', '5.18'
   gem 'minitest-spec-context'
   gem 'mocha'
+  gem 'mutex_m'
   gem 'rake'
   gem 'simplecov'
   gem 'thor'
