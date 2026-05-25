@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.test_files    = Dir['{test}/**/*']
 
-  spec.add_dependency 'hammer_cli_katello', '< 2.0'
+  spec.add_dependency 'hammer_cli_katello', '>= 1.19', '< 6.0'
 
   spec.required_ruby_version = '>= 2.7', '< 4'
 
