@@ -7,15 +7,13 @@
 # Bryan Kearney <bryan.kearney@gmail.com>, 2023
 # Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_rh_cloud 1.0.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 16:17+0000\n"
 "PO-Revision-Date: 2023-10-05 11:01+0000\n"
-"Last-Translator: Ewoud Kohl van Wijngaarden <ewoud"
-"+transifex@kohlvanwijngaarden.nl>, 2024\n"
+"Last-Translator: Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarde"
+"n.nl>, 2024\n"
 "Language-Team: Japanese (https://app.transifex.com/foreman/teams/114/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,38 +21,40 @@ msgstr ""
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgid "Cloud connector enable task started"
-msgstr "クラウドコネクター有効化タスクが開始しました"
-
-msgid ""
-"Failed to enable cloud connector, please check server logs for more "
-"information"
+msgid "Duration: %sms"
 msgstr ""
-"クラウドコネクターを有効にできませんでした。詳細はサーバーログを確認してくだ"
-"さい"
 
-msgid "Task id"
-msgstr "タスク ID"
+msgid "Message: %s"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Server Response"
+msgstr ""
 
 msgid "Inventory sync task started successfully"
 msgstr "インベントリー同期タスクが正常に開始しました"
 
 msgid ""
-"Failed to start inventory sync task, please check server logs for more "
-"information"
+"Failed to start inventory sync task, please check server logs for more information"
+msgstr "インベントリー同期タスクを開始できませんでした。詳細はサーバーログを確認してください"
+
+msgid "Task id"
+msgstr "タスク ID"
+
+msgid "Path to download report."
 msgstr ""
-"インベントリー同期タスクを開始できませんでした。詳細はサーバーログを確認して"
-"ください"
 
 msgid "Failed to download report"
 msgstr "レポートのダウンロードに失敗しました"
+
+msgid "Generate the report, but do not upload"
+msgstr ""
 
 msgid "Report generation started successfully"
 msgstr "レポート生成が正常に開始しました"
 
 msgid ""
-"Failed to start report generation task, please check server logs for more "
-"information."
-msgstr ""
-"レポート生成タスクを開始できませんでした。詳細はサーバーログを確認してくださ"
-"い。"
+"Failed to start report generation task, please check server logs for more information."
+msgstr "レポート生成タスクを開始できませんでした。詳細はサーバーログを確認してください。"
