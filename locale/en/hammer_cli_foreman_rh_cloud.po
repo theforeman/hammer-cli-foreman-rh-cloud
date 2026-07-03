@@ -7,7 +7,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_rh_cloud 1.0.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 16:17+0000\n"
 "PO-Revision-Date: 2023-07-12 16:17+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,32 +16,40 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgid "Cloud connector enable task started"
+msgid "Duration: %sms"
 msgstr ""
 
-msgid ""
-"Failed to enable cloud connector, please check server logs for more "
-"information"
+msgid "Message: %s"
 msgstr ""
 
-msgid "Task id"
+msgid "Status"
+msgstr ""
+
+msgid "Server Response"
 msgstr ""
 
 msgid "Inventory sync task started successfully"
 msgstr ""
 
 msgid ""
-"Failed to start inventory sync task, please check server logs for more "
-"information"
+"Failed to start inventory sync task, please check server logs for more information"
+msgstr ""
+
+msgid "Task id"
+msgstr ""
+
+msgid "Path to download report."
 msgstr ""
 
 msgid "Failed to download report"
+msgstr ""
+
+msgid "Generate the report, but do not upload"
 msgstr ""
 
 msgid "Report generation started successfully"
 msgstr ""
 
 msgid ""
-"Failed to start report generation task, please check server logs for more "
-"information."
+"Failed to start report generation task, please check server logs for more information."
 msgstr ""

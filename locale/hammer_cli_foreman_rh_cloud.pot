@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer-cli-foreman-rh-cloud package.
+# This file is distributed under the same license as the hammer_cli_foreman_rh_cloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-rh-cloud 1.0.1\n"
+"Project-Id-Version: hammer_cli_foreman_rh_cloud 1.0.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 16:17+0000\n"
-"PO-Revision-Date: 2023-07-12 16:17+0000\n"
+"POT-Creation-Date: 2026-07-01 03:42-0400\n"
+"PO-Revision-Date: 2026-07-01 03:42-0400\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -18,41 +18,54 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ../lib/hammer_cli_foreman_rh_cloud/cloud_connector.rb:11
-msgid "Cloud connector enable task started"
+#: ../lib/hammer_cli_foreman_rh_cloud/command_extensions/ping.rb:16
+msgid "Duration: %sms"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_rh_cloud/cloud_connector.rb:12
-msgid ""
-"Failed to enable cloud connector, please check server logs for more informatio"
-"n"
+#: ../lib/hammer_cli_foreman_rh_cloud/command_extensions/ping.rb:18
+msgid "Message: %s"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_rh_cloud/cloud_connector.rb:15
-#: ../lib/hammer_cli_foreman_rh_cloud/inventory.rb:15
-msgid "Task id"
+#: ../lib/hammer_cli_foreman_rh_cloud/command_extensions/ping.rb:28
+#: ../lib/hammer_cli_foreman_rh_cloud/command_extensions/ping.rb:34
+msgid "Status"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_rh_cloud/inventory.rb:11
-msgid "Inventory sync task started successfully"
+#: ../lib/hammer_cli_foreman_rh_cloud/command_extensions/ping.rb:29
+#: ../lib/hammer_cli_foreman_rh_cloud/command_extensions/ping.rb:35
+msgid "Server Response"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_rh_cloud/inventory.rb:12
-msgid ""
-"Failed to start inventory sync task, please check server logs for more informa"
-"tion"
+msgid "Inventory sync task started successfully"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_rh_cloud/report.rb:12
+#: ../lib/hammer_cli_foreman_rh_cloud/inventory.rb:13
+msgid ""
+"Failed to start inventory sync task, please check server logs for more information"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_rh_cloud/inventory.rb:16
+msgid "Task id"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_rh_cloud/inventory.rb:29
+msgid "Path to download report."
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_rh_cloud/inventory.rb:33
 msgid "Failed to download report"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_rh_cloud/report.rb:22
+#: ../lib/hammer_cli_foreman_rh_cloud/inventory.rb:43
+msgid "Generate the report, but do not upload"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_rh_cloud/inventory.rb:44
 msgid "Report generation started successfully"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_rh_cloud/report.rb:23
+#: ../lib/hammer_cli_foreman_rh_cloud/inventory.rb:45
 msgid ""
-"Failed to start report generation task, please check server logs for more info"
-"rmation."
+"Failed to start report generation task, please check server logs for more information."
 msgstr ""

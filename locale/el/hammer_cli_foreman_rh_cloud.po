@@ -6,12 +6,10 @@
 # Translators:
 # Efstathios Iosifidis <iefstathios@gmail.com>, 2023
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_rh_cloud 1.0.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 16:17+0000\n"
 "PO-Revision-Date: 2023-10-05 11:01+0000\n"
 "Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>, 2023\n"
 "Language-Team: Greek (https://app.transifex.com/foreman/teams/114/el/)\n"
@@ -21,32 +19,40 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "Cloud connector enable task started"
+msgid "Duration: %sms"
 msgstr ""
 
-msgid ""
-"Failed to enable cloud connector, please check server logs for more "
-"information"
+msgid "Message: %s"
 msgstr ""
 
-msgid "Task id"
-msgstr "ID εργασίας"
+msgid "Status"
+msgstr ""
+
+msgid "Server Response"
+msgstr ""
 
 msgid "Inventory sync task started successfully"
 msgstr ""
 
 msgid ""
-"Failed to start inventory sync task, please check server logs for more "
-"information"
+"Failed to start inventory sync task, please check server logs for more information"
+msgstr ""
+
+msgid "Task id"
+msgstr "ID εργασίας"
+
+msgid "Path to download report."
 msgstr ""
 
 msgid "Failed to download report"
+msgstr ""
+
+msgid "Generate the report, but do not upload"
 msgstr ""
 
 msgid "Report generation started successfully"
 msgstr ""
 
 msgid ""
-"Failed to start report generation task, please check server logs for more "
-"information."
+"Failed to start report generation task, please check server logs for more information."
 msgstr ""

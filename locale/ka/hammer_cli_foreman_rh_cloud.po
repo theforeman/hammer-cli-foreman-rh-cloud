@@ -6,12 +6,10 @@
 # Translators:
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_rh_cloud 1.0.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 16:17+0000\n"
 "PO-Revision-Date: 2023-10-05 11:01+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023\n"
 "Language-Team: Georgian (https://app.transifex.com/foreman/teams/114/ka/)\n"
@@ -21,38 +19,44 @@ msgstr ""
 "Language: ka\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-msgid "Cloud connector enable task started"
-msgstr "Cloud connector-ის ჩართვის ამოცანა გაეშვა"
-
-msgid ""
-"Failed to enable cloud connector, please check server logs for more "
-"information"
+msgid "Duration: %sms"
 msgstr ""
-"Cloud connector-ის ჩართვა ჩავარდა. მეტი ინფორმაციისთვის იხილეთ სერვერის "
-"ჟურნალი"
 
-msgid "Task id"
-msgstr "ამოცანის ID"
+msgid "Message: %s"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Server Response"
+msgstr ""
 
 msgid "Inventory sync task started successfully"
 msgstr "ინვენტარის სინქრონიზაცია წარმატებით დაიწყო"
 
 msgid ""
-"Failed to start inventory sync task, please check server logs for more "
-"information"
+"Failed to start inventory sync task, please check server logs for more information"
 msgstr ""
-"ინვენტარის სინქრონიზაციის ამოცანის გაშვება ჩავარდა. მეტი ინფორმაციისთვის "
-"იხილეთ სერვერის ჟურნალი"
+"ინვენტარის სინქრონიზაციის ამოცანის გაშვება ჩავარდა. მეტი ინფორმაციისთვის იხილე"
+"თ სერვერის ჟურნალი"
+
+msgid "Task id"
+msgstr "ამოცანის ID"
+
+msgid "Path to download report."
+msgstr ""
 
 msgid "Failed to download report"
 msgstr "ანგარიშის გადმოწერა ჩავარდა"
+
+msgid "Generate the report, but do not upload"
+msgstr ""
 
 msgid "Report generation started successfully"
 msgstr "ანგარიშის გენერაცია წარმატებით გაეშვა"
 
 msgid ""
-"Failed to start report generation task, please check server logs for more "
-"information."
+"Failed to start report generation task, please check server logs for more information."
 msgstr ""
-"ანგარიშის გენერაციის ამოცანის გაშვება ჩავარდა. მეტი ინფორმაციისთვის იხილეთ "
-"სერვერის ჟურნალი."
+"ანგარიშის გენერაციის ამოცანის გაშვება ჩავარდა. მეტი ინფორმაციისთვის იხილეთ სერ"
+"ვერის ჟურნალი."

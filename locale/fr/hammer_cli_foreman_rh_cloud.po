@@ -7,55 +7,59 @@
 # Amit Upadhye <aupadhye@redhat.com>, 2023
 # Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_rh_cloud 1.0.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 16:17+0000\n"
 "PO-Revision-Date: 2023-10-05 11:01+0000\n"
-"Last-Translator: Ewoud Kohl van Wijngaarden <ewoud"
-"+transifex@kohlvanwijngaarden.nl>, 2024\n"
+"Last-Translator: Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarde"
+"n.nl>, 2024\n"
 "Language-Team: French (https://app.transifex.com/foreman/teams/114/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
-"1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 100000"
+"0 == 0 ? 1 : 2;\n"
 
-msgid "Cloud connector enable task started"
-msgstr "La tâche d'activation du connecteur cloud a démarré"
-
-msgid ""
-"Failed to enable cloud connector, please check server logs for more "
-"information"
+msgid "Duration: %sms"
 msgstr ""
-"Impossible d'activer le connecteur cloud, veuillez vérifier les journaux du "
-"serveur pour plus d'informations"
 
-msgid "Task id"
-msgstr "Id tâche"
+msgid "Message: %s"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Server Response"
+msgstr ""
 
 msgid "Inventory sync task started successfully"
 msgstr "La tâche de synchronisation de l'inventaire a démarré avec succès"
 
 msgid ""
-"Failed to start inventory sync task, please check server logs for more "
-"information"
+"Failed to start inventory sync task, please check server logs for more information"
 msgstr ""
-"Impossible de démarrer la tâche de synchronisation de l'inventaire, veuillez "
-"vérifier les journaux du serveur pour plus d'informations"
+"Impossible de démarrer la tâche de synchronisation de l'inventaire, veuillez v"
+"érifier les journaux du serveur pour plus d'informations"
+
+msgid "Task id"
+msgstr "Id tâche"
+
+msgid "Path to download report."
+msgstr ""
 
 msgid "Failed to download report"
 msgstr "Le téléchargement du module   a échoué."
+
+msgid "Generate the report, but do not upload"
+msgstr ""
 
 msgid "Report generation started successfully"
 msgstr "La génération du rapport a démarré avec succès"
 
 msgid ""
-"Failed to start report generation task, please check server logs for more "
-"information."
+"Failed to start report generation task, please check server logs for more information."
 msgstr ""
-"Impossible de démarrer la tâche de synchronisation de l'inventaire, veuillez "
-"vérifier les journaux du serveur pour plus d'informations"
+"Impossible de démarrer la tâche de synchronisation de l'inventaire, veuillez v"
+"érifier les journaux du serveur pour plus d'informations"
