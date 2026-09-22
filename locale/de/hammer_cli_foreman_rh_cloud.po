@@ -1,17 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hammer-cli-foreman-rh-cloud package.
+# This file is distributed under the same license as the hammer_cli_foreman_rh_cloud package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Ettore Atalan <atalanttore@googlemail.com>, 2023
+# Bryan Kearney <bryan.kearney@gmail.com>, 2026
+# Ettore Atalan <atalanttore@googlemail.com>, 2026
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_rh_cloud 1.0.5\n"
+"Project-Id-Version: hammer_cli_foreman_rh_cloud 5.0.0\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 03:42-0400\n"
 "PO-Revision-Date: 2023-10-05 11:01+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>, 2023\n"
+"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>, 2026\n"
 "Language-Team: German (https://app.transifex.com/foreman/teams/114/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,22 +23,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "Duration: %sms"
-msgstr ""
+msgstr "Dauer: %sms"
 
 msgid "Message: %s"
-msgstr ""
+msgstr "Nachricht: %s"
 
 msgid "Status"
 msgstr ""
 
 msgid "Server Response"
-msgstr ""
+msgstr "Serverantwort"
 
 msgid "Inventory sync task started successfully"
 msgstr ""
 
 msgid ""
-"Failed to start inventory sync task, please check server logs for more information"
+"Failed to start inventory sync task, please check server logs for more "
+"information"
 msgstr ""
 
 msgid "Task id"
@@ -54,5 +58,6 @@ msgid "Report generation started successfully"
 msgstr ""
 
 msgid ""
-"Failed to start report generation task, please check server logs for more information."
+"Failed to start report generation task, please check server logs for more "
+"information."
 msgstr ""
