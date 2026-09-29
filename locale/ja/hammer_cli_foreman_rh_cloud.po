@@ -31,7 +31,7 @@ msgid "Message: %s"
 msgstr "メッセージ: %s"
 
 msgid "Status"
-msgstr "ステータス"
+msgstr "状態"
 
 msgid "Server Response"
 msgstr "サーバーの応答"
