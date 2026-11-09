@@ -5,6 +5,13 @@ describe 'insights inventory download-report' do
     @cmd = %w[insights inventory download-report]
   end
 
+  it 'lists the path option only once in help' do
+    api_expects_no_call
+    result = run_cmd(@cmd + ['--help'])
+    assert_equal(HammerCLI::EX_OK, result.exit_code)
+    assert_equal(1, result.out.scan(/^\s+--path\b/).size)
+  end
+
   it 'fails on missing organization-id' do
     api_expects_no_call
     params = ['--path', '/tmp']
@@ -18,7 +25,7 @@ describe 'insights inventory download-report' do
     api_expects_no_call
     params = ['--organization-id', '2']
     result = run_cmd(@cmd + params)
-    expected_error = 'Option \'--path\' is required'
+    expected_error = 'Option --path is required.'
     assert_equal(result.exit_code, HammerCLI::EX_USAGE)
     assert_match(/#{expected_error}/, result.err)
   end

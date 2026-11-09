@@ -25,10 +25,9 @@ module HammerCLIForemanRhCloud
 
       action :download_file
 
-      option '--path', 'PATH',
-        _('Path to download report.'),
-        attribute_name: :option_path,
-        required: true
+      validate_options do
+        option(:option_path).required
+      end
 
       failure_message _('Failed to download report')
 
